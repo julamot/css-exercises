@@ -1,4 +1,5 @@
-.common {
+/* Change ".common" to .first, .second and remove .common class, this was incorrect */
+.first, .second {
     border: 2px solid black;
     font-size: 28px;
     font-family: "Helvetica, Times New Roman", sans-serif
