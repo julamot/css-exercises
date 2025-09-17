@@ -8,7 +8,7 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+p.para.small-para, .text .child {
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,7 +17,7 @@ body {
   font-size: 22px;
 }
 
-.confirm {
+.confirm#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -37,6 +37,6 @@ body {
 
 div.text {
   color: rgb(0, 0, 0);
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 100;
 }
