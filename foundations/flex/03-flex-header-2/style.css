@@ -47,6 +47,7 @@ ul {
   list-style-type: none;
 }
 
+/* This is close, see solution */
 .header  {
   display: flex;
   align-items: center;
@@ -70,7 +71,6 @@ ul {
 
 ul {
   display: flex;
-  /* this removes the dots on the list items*/
   margin: 8px;
   padding: 8px;
   gap: 8px;
