@@ -46,3 +46,32 @@ a {
 ul {
   list-style-type: none;
 }
+
+.header  {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin: 8px;
+  gap: 16px;
+  justify-content: space-between;
+  }
+
+.left-side  {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  }
+
+.right-side {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+ul {
+  display: flex;
+  /* this removes the dots on the list items*/
+  margin: 8px;
+  padding: 8px;
+  gap: 8px;
+}
