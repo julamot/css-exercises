@@ -1,8 +1,9 @@
 .header  {
-  display:flex;
+  display: flex;
+  padding: 8px;
   font-family: monospace;
   background: papayawhip;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
  }
 
@@ -13,34 +14,16 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  margin: 4px;
+  /* margin: 4px; */
 }
 
-.left-links {
-  display: flex;
-  margin-left: auto;
-  margin-right: 40;
-  justify-content: flex-start; 
-}
-.right-links {
-  display: flex;
-  margin-left: 40; 
-  margin-right: auto;
-  justify-content: flex-end;
-}
-.left-links ul {
-  display: flex;
-  gap: 8px;
-  /* justify-content: flex-start; */
-}
-.right-links ul {
-  display: flex;
-  gap: 8px;
-  /* justify-content: flex-end;   */
-}
 ul {
+  display: flex;
   /* this removes the dots on the list items*/
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
 }
 
 a {
