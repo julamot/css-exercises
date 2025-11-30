@@ -50,28 +50,29 @@ ul {
 /* This is close, see solution */
 .header  {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   padding: 8px;
-  margin: 8px;
-  gap: 16px;
+  /* margin: 8px; */
+  /* gap: 16px; */
   justify-content: space-between;
   }
 
-.left-side  {
+.left-side, .right-side  {
   display: flex;
   gap: 8px;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
+  align-items: center;
   }
 
-.right-side {
+/* .right-side { 
   display: flex;
   gap: 8px;
-  justify-content: flex-end;
-}
+  align-items: center;
+} */
 
 ul {
   display: flex;
-  margin: 8px;
-  padding: 8px;
-  gap: 8px;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
